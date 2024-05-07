@@ -41,7 +41,7 @@ export const aboutCardData = [
 export const aboutTextData = [
   {
     id: 1,
-    text: `I graduated from two of the main federal universities in Minas Gerais, where I had the opportunity to get involved in various development projects, covering Front-end, Back-end, and Mobile areas, using various technologies.`,
+    text: `After graduating from Kenyatta University, one of Nairobi's prominent unitary universities, I pursued further education at Moringa School, where I delved into the field of Software Engineering. During my time at Moringa School, I engaged in several development projects spanning Front-end, Back-end, and Mobile domains, utilizing a diverse range of technologies.Subsequently, I enrolled in AlX to deepen my expertise in Augmented AI, expanding my knowledge and skills in this emerging digital field.`,
   },
   {
     id: 2,
