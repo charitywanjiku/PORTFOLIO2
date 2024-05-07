@@ -44,9 +44,9 @@ const Services = () => {
           
           </ul>
           </article>
-          </div>
+          {/* </div> */}
         
-      <div className="container services_container">
+      {/* <div className="container services_container"> */}
       <article className="service">
           <div className="service_head">
         <h3>STATISTICAL ANALYSIS</h3>
@@ -86,8 +86,8 @@ const Services = () => {
           </li>
           </ul>
           </article>
-          </div>
-          <div className="container services_container">
+          {/* </div> */}
+          {/* <div className="container services_container"> */}
       <article className="service">  
           <div className="service_head">
         <h3>AI AUGMENTED DEVELOPMENT</h3>
@@ -126,8 +126,8 @@ const Services = () => {
             <p>AI Ethics and Governance</p>
           </li>  
           </article> 
-          </div> 
-
+          {/* </div>  */}
+</div>
     </section>
   )
 }
