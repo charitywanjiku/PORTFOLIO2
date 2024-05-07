@@ -1,7 +1,7 @@
 import React from 'react'
 import './header.css'
 import CTA from './CTA'
-//  import ME from '../../assets/me.jpeg'
+import ME from '../../assets/Charity(5).jpg'
 import HeaderSocials from './HeaderSocials';
 import {BsArrowDownCircle} from 'react-icons/bs'
 
@@ -16,7 +16,7 @@ const Header = () => {
         <HeaderSocials/>
 
         <div className="me">
-            {/* <img src={ME} alt="Eu" /> */}
+            <img src={ME} alt="Eu" />
         </div>
 
         <a href="#footer" className='scroll__down'><BsArrowDownCircle/></a>

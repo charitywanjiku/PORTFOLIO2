@@ -1,6 +1,8 @@
 import React from 'react'
 import './about.css'
-// import ME from '../../assets/mejpeg'
+import ME from '../../assets/Charity(6).jpeg';
+
+// import ME from '../../assets/Charity(2).jpg'
 
 
 import { aboutCardData, aboutTextData } from '../../data/aboutData'
@@ -15,7 +17,7 @@ const About = () => {
         <div className="about__me">
 
           <div className="about__me-image">
-            {/* <img src={ME} alt="About me image" /> */}
+            <img src={ME} alt="" />
           </div>
 
         </div>
