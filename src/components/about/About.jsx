@@ -2,9 +2,6 @@ import React from 'react'
 import './about.css'
 import ME from '../../assets/Charity(6).jpeg';
 
-// import ME from '../../assets/Charity(2).jpg'
-
-
 import { aboutCardData, aboutTextData } from '../../data/aboutData'
 
 const About = () => {

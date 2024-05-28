@@ -21,14 +21,14 @@ export const aboutCardData = [
   {
     id: 1,
     icon: <AiOutlineFieldTime className='about__icon' />,
-    title: 'Academic',
-    small: '1300h in IS and IT',
+    title: 'Academics',
+    small: '1300h in IT and AI',
   },
   {
     id: 2,
     icon: <MdOutlineLanguage className='about__icon' />,
-    title: 'English',
-    small: 'Level B2',
+    title: 'Statistics and Programming',
+    small: 'Degree in Statistics',
   },
   {
     id: 3,
