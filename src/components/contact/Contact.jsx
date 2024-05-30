@@ -12,7 +12,7 @@ const Contact = () => {
     e.preventDefault();
 
     emailjs
-      .sendForm("service_2xerr0h", "template_nx6rqje", form.current, "rN2xNPghh5SCTtz44")
+      .sendForm("service_lt79jjl", "template_30nx9p6", form.current, "w8UqcSgwJ1e9jr23f")
       .then((result) => {
         window.alert("Message Sent! Thank you for contacting me. I'll reply as soon as possible.");
         e.target.reset();
@@ -37,9 +37,9 @@ const Contact = () => {
 
         <form ref={form} onSubmit={sendEmail}>
           <h4>Send a Direct Message</h4>
-          <input type="text" name='name' placeholder='How can I address you' required />
+          <input type="text" name='name' placeholder='Your Full Name' required />
           <input type="email" name='email' placeholder='Your Email' required />
-          <textarea name="message"  rows="7" placeholder='Content of your message' required></textarea>
+          <textarea name="message"  rows="7" placeholder='Your Message' required></textarea>
           <button type='submit' className='btn btn-primary'>
             Send direct message
           </button>
