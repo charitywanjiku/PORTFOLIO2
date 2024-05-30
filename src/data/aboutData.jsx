@@ -21,7 +21,7 @@ export const aboutCardData = [
   {
     id: 1,
     icon: <AiOutlineFieldTime className='about__icon' />,
-    title: 'Academics',
+    title: 'Software Engineer',
     small: '1300h in IT and AI',
   },
   {
@@ -34,7 +34,7 @@ export const aboutCardData = [
     id: 3,
     icon: <PiProjectorScreenThin className='about__icon' />,
     title: 'Projects',
-    small: '11+ projects',
+    small: '15+ projects',
   },
 ];
 
